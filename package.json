@@ -1,0 +1,9 @@
+{
+  "name": "umd-mongo-server",
+  "version": "1.0.0",
+  "description": "Tiny API that stores which posts Universal Post Media Downloader already downloaded, in MongoDB",
+  "main": "server.js",
+  "scripts": { "start": "node server.js", "test": "node test.js" },
+  "engines": { "node": ">=18" },
+  "dependencies": { "mongodb": "^6.8.0" }
+}
